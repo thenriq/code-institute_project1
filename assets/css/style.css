@@ -24,6 +24,7 @@ h1, h2 {
     float: left;
     font-size: 300%;
     font-family: 'Acme', sans-serif;
+    margin-left: 30px;
 }
 
 #menu {
@@ -67,4 +68,22 @@ h1, h2 {
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center top;
+}
+
+#about_us{
+    height: 600px;
+}
+
+#about_left {
+    padding-top: 30px;
+    width: 50%;
+    float: left;
+    background-color: blue;
+}
+
+#video_right {
+    padding-top: 30px;
+    width: 50%;
+    float: right;
+    background-color: red;
 }
