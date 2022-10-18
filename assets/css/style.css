@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Mali:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Baloo+2&family=Mali:wght@500&display=swap');
 
 *{
     margin: 0;
@@ -16,7 +16,6 @@ body {
 
 h1, h2 {
     font-family: 'Baloo 2', cursive, sans-serif;
-    text-transform: uppercase;
     letter-spacing: 4px;
     color:rgb(34, 148, 19)
 }
@@ -24,5 +23,36 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 300%;
-    font-family: 'Mali', cursive;
+    font-family: 'Acme', sans-serif;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    float: right;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active{
+    border-bottom: 1px solid #3a3a3a;
 }
