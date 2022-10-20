@@ -21,6 +21,8 @@ h1, h2 {
     color: rgb(230, 101, 50)
 }
 
+
+
 #logo {
     float: left;
     font-size: 200%;
@@ -29,10 +31,13 @@ h1, h2 {
     margin-left: 30px;
 }
 
+
+
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
     float: right;
+    
 }
 
 #menu, #logo {
@@ -72,34 +77,29 @@ h1, h2 {
     background-repeat: no-repeat;
     overflow: hidden;
     opacity: 0.7;
-    
 }
 
-#about_us{
-    height: 600px;
-}
+.text-left {
+    float:left;
+    padding-left: 10%;
+    padding-right: 20px; 
+  }
 
-#about_left{
-    padding-top: 30px;
-    width: 50%;
+.image-left {
     float: left;
-    
-    background-color: aqua;
-}
+    height: 200px;
+    width: 300px;
+    font-family: Veranda;
+  }
 
-#about_left h1 {
-    margin-left: 30px;
-}
+  .text-right {
+    float:right;
+  }
 
-#about_left p {
-    margin-left: 30px;
-}
-
-
-
-#about_video {
-    padding-top: 30px;
-    width: 50%;
-    float: right;
-    background-color: cadetblue;
-}
+.image-right {
+    float: left;
+    height: 200px;
+    width: 300px;
+    font-family: Veranda;
+  }
+  
