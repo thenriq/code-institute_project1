@@ -79,30 +79,134 @@ h1, h2 {
     opacity: 0.7;
 }
 
+.greeting {
+    margin: 30px;
+    text-align: center;
+}
+
+.baloon-led{
+    background-color: blue;
+    height: 50px;
+    width: 20%;
+    display: inline-block;
+    margin-left: 40px;
+    padding-right: 10px;
+    vertical-align: top;
+    
+}
+
+.baloon-led h3 {
+    color: rgb(211, 28, 141);
+    text-align: center;
+}
+
+.baloon-gas{
+    background-color: rgb(0, 255, 106);
+    height: 50px;
+    width: 20%;
+    display: inline-block;
+    margin-left: 30px;
+    padding-right: 10px;
+    vertical-align: top;
+}
+
+.baloon-gas h3 {
+    color: rgb(211, 28, 141);
+    text-align: center;
+}
+
+.baloon-bouquet{
+    background-color: rgb(0, 255, 106);
+    height: 50px;
+    width: 20%;
+    display: inline-block;
+    margin-left: 30px;
+    padding-right: 10px;
+    vertical-align: top;
+}
+
+.baloon-bouquet h3 {
+    color: rgb(211, 28, 141);
+    text-align: center;
+}
+
+.baloon-inner{
+    background-color: rgb(0, 255, 106);
+    height: 50px;
+    width: 20%;
+    display: inline-block;
+    margin-left: 30px;
+    padding-right: 10px;
+    vertical-align: top;
+}
+
+.baloon-inner h3 {
+    color: rgb(211, 28, 141);
+    text-align: center;
+}
+
+.image-left {
+    height: 300px;
+    width: 100%;
+}
+
+.image_center-left {
+    height: 300px;
+    width: 100%;
+}
+
+.image_center-right {
+    height: 300px;
+    width: 100%;
+}
+
+.image-right{
+    height: 300px;
+    width: 100%;
+}
+
+
+/*
+#advert-header {
+    text-align: left;
+    font-size: 280%;
+}
+
+.led-balloon{
+    float: left;
+    clear: both;
+    height: 200px;
+    width: 40%;
+    position: relative;
+  }  
+
+.helium-balloon {
+    float: right;
+    clear: both;
+    height: 200px;
+    width: 40%;
+    position: relative;
+}*/
+
+/*
 .text-left {
     float:left;
     padding-left: 10%;
     padding-right: 20px; 
   }
+*/
 
-.image-left {
-    float: left;
-    height: 200px;
-    width: 300px;
-    font-family: Veranda;
-  }
-
+/*
   .text-right {
-    float:right;
+    float:left;
+    padding-right: 10%;
+    padding-left: 20px;
+    
   }
+*/
 
-.image-right {
-    float: left;
-    height: 200px;
-    width: 300px;
-    font-family: Veranda;
-  }
-
+  
+/*
 footer {
     height: 150px;
 }
@@ -121,4 +225,5 @@ footer {
     padding: 5%;
     color: #3a3a3a;
 }
-  
+  */
+
