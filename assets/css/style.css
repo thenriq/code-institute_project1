@@ -21,6 +21,10 @@ h1, h2 {
     color: rgb(230, 101, 50)
 }
 
+h3 {
+    color: rgb(230, 101, 50);
+}
+
 
 
 #logo {
@@ -85,23 +89,23 @@ h1, h2 {
 }
 
 .baloon-led{
-    background-color: blue;
+    
     height: 50px;
     width: 20%;
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 80px;
     padding-right: 10px;
     vertical-align: top;
     
 }
 
 .baloon-led h3 {
-    color: rgb(211, 28, 141);
+    
     text-align: center;
 }
 
 .baloon-gas{
-    background-color: rgb(0, 255, 106);
+    
     height: 50px;
     width: 20%;
     display: inline-block;
@@ -111,12 +115,12 @@ h1, h2 {
 }
 
 .baloon-gas h3 {
-    color: rgb(211, 28, 141);
+    
     text-align: center;
 }
 
 .baloon-bouquet{
-    background-color: rgb(0, 255, 106);
+    
     height: 50px;
     width: 20%;
     display: inline-block;
@@ -126,12 +130,12 @@ h1, h2 {
 }
 
 .baloon-bouquet h3 {
-    color: rgb(211, 28, 141);
+    
     text-align: center;
 }
 
 .baloon-inner{
-    background-color: rgb(0, 255, 106);
+    
     height: 50px;
     width: 20%;
     display: inline-block;
@@ -141,7 +145,7 @@ h1, h2 {
 }
 
 .baloon-inner h3 {
-    color: rgb(211, 28, 141);
+    
     text-align: center;
 }
 
