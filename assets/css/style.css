@@ -42,6 +42,7 @@ h3 {
     letter-spacing: 4px;
     float: right;
     
+    
 }
 
 #menu, #logo {
@@ -75,7 +76,8 @@ section {
     
         display: flex;
         flex-direction: column;
-        min-height: 100vh;
+        min-height: 120vh;
+        
       }
       
       main {
@@ -84,7 +86,7 @@ section {
 
 
 #hero-outer {
-    height: 600px;
+    height: 400px;
     width: 100%;
     overflow: hidden;
 
@@ -93,13 +95,22 @@ section {
 
 #hero_image {
 
-    /*height: 600px;*/
+    height: 1000px;
     width: 100%;
-    background: url('../images/hero_image.jpg') no-repeat center center;
+    background: url('../images/hero_image_3.jpg') no-repeat center center;
+    background-size: cover;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /*background-attachment: fixed;*/
+/*
+    /*height: 600px;*//*
+    width: 100%;
+    background: url('../images/hero_image_2.jpg') no-repeat center center;
     background-size: 100% auto;
     padding-top: 46%;
     opacity: 0.7;
-
+*/
    /* 
     
     
@@ -108,6 +119,9 @@ section {
     overflow: hidden;
     
     */
+
+
+
 }
 
 .greeting {
@@ -117,7 +131,7 @@ section {
 
 .baloon-led{
     
-    height: 50px;
+    height: 250px;
     width: 20%;
     display: inline-block;
     margin-left: 80px;
@@ -133,7 +147,7 @@ section {
 
 .baloon-gas{
     
-    height: 50px;
+    height: 250px;
     width: 20%;
     display: inline-block;
     margin-left: 30px;
@@ -148,12 +162,20 @@ section {
 
 .baloon-bouquet{
     
-    height: 50px;
+    /*display: inline-block;
+    height: auto;
+    width: 20%;
+    max-width: 100%;
+    vertical-align: middle;*/
+
+    height: 250px;
     width: 20%;
     display: inline-block;
     margin-left: 30px;
     padding-right: 10px;
     vertical-align: top;
+    
+    
 }
 
 .baloon-bouquet h3 {
@@ -163,7 +185,7 @@ section {
 
 .baloon-inner{
     
-    height: 50px;
+    height: 250px;
     width: 20%;
     display: inline-block;
     margin-left: 30px;
@@ -177,23 +199,28 @@ section {
 }
 
 .image-left {
-    height: 300px;
+    height: 100%;
     width: 100%;
+    object-fit: cover;
 }
 
 .image_center-left {
-    height: 300px;
+    height: 100%;
     width: 100%;
+    object-fit: cover;
 }
 
 .image_center-right {
-    height: 300px;
+    height: 100%;
     width: 100%;
+    object-fit: cover;
+    object-position: center top;
 }
 
 .image-right{
-    height: 300px;
+    height: 100%;
     width: 100%;
+    object-fit: cover;
 }
 
 
