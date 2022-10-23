@@ -25,8 +25,6 @@ h3 {
     color: rgb(230, 101, 50);
 }
 
-
-
 #logo {
     float: left;
     font-size: 200%;
@@ -125,15 +123,20 @@ section {
 }
 
 .greeting {
-    margin: 10px;
+    margin-top: 80px;
+    margin-bottom: 80px;
     text-align: center;
+    font-size: 350%;
 }
 
 .featured-items div div {
     width: 16vw;
     height: 16vw;
     display: inline-block;
-    margin-left: 50px;
+    position: relative;
+    margin-left: 60px;
+    margin-bottom: 100px;
+    padding: 3%;
     vertical-align: top;
     box-shadow: 0 0 16px rgb(0 0 0 / 15%);
     text-align: center;
@@ -141,6 +144,7 @@ section {
 
 .featured-items div div h3 {
     text-align: center;
+    /*padding-top: 5%;*/
 }
 
 .featured-items div div img {
