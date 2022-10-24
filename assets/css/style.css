@@ -162,26 +162,40 @@ section {
     /*min-height: 50px;*/
     margin-right: 150px;
     padding: 80px 0;
-    text-align: left;
+    text-align: justify;
 }
 
-
+.featured-flex-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: flex-end;
+    border-bottom: black;
+    
+    
+}
 
 .featured-items div div {
-    width: 16vw;
-    height: 16vw;
+    width: 17vw;
+    height: 17vw;
     display: inline-block;
     position: relative;
-    margin-left: 60px;
+    
     margin-bottom: 100px;
-    padding: 3%;
+    padding: 60px;
     vertical-align: top;
     box-shadow: 0 0 16px rgb(0 0 0 / 15%);
     text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(238, 228, 210);
 }
 
-.featured-items div div h3 {
+.featured-items div div p {
     text-align: center;
+    font-weight: bold;
+    font-size: 100%
     /*padding-top: 5%;*/
 }
 
