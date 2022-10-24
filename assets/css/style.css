@@ -41,10 +41,13 @@ h3 {
     float: right;
     
     
+    
 }
 
 #menu, #logo {
     line-height: 75px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 
@@ -134,15 +137,35 @@ section {
 
 */
 
-
-
-
-.greeting {
-    margin-top: 80px;
-    margin-bottom: 80px;
-    text-align: center;
-    font-size: 350%;
+.greeting-box-container {
+    display: flex;
+    justify-content: center;
+    
+    margin: 50px 0 50px 0;
 }
+
+.flex-greeting {
+    width: 450px;
+    margin: 10px;
+    
+}
+
+.greeting-header {
+    padding: 80px 0;
+    text-align: right;
+    margin-left: 150px;
+    font-size: 400%;
+
+}
+
+.greeting-message {
+    /*min-height: 50px;*/
+    margin-right: 150px;
+    padding: 80px 0;
+    text-align: left;
+}
+
+
 
 .featured-items div div {
     width: 16vw;
