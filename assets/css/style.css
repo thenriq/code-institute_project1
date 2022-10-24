@@ -74,7 +74,7 @@ section {
     
         display: flex;
         flex-direction: column;
-        min-height: 120vh;
+        /*min-height: 120vh;*/
         
       }
       
@@ -84,14 +84,27 @@ section {
 
 
 #hero-outer {
-    height: 400px;
+    height: auto;
     width: 100%;
     overflow: hidden;
 
     position: relative;
 }
 
-#hero_image {
+#hero_image_box {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+#hero-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+    /*
+
 
     height: 1000px;
     width: 100%;
@@ -100,6 +113,7 @@ section {
     
     padding-top: 10px;
     padding-bottom: 10px;
+    /*object-fit: contain;*/
     /*background-attachment: fixed;*/
 /*
     /*height: 600px;*//*
@@ -116,11 +130,12 @@ section {
     
     overflow: hidden;
     
-    */
+    
+
+*/
 
 
 
-}
 
 .greeting {
     margin-top: 80px;
