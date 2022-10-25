@@ -245,5 +245,16 @@ footer {
     color: #3a3a3a;
     
 }
-  
 
+.contact-section {
+    clear: both;
+    background: url("../images/contact_form.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 900px;
+}
+
+.form-div{
+    display: flex;
+    justify-content: center;
+}
