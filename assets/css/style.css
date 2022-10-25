@@ -367,3 +367,11 @@ footer {
     }
 
 }
+
+/* For small screen sizes 800px and down */
+@media screen and (max-width: 800px) {
+    .featured-items div div {
+        width: 100%;
+        height: 100%;
+    }
+}
