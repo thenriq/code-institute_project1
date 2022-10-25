@@ -90,7 +90,7 @@ section {
     height: auto;
     width: 100%;
     overflow: hidden;
-
+    clear: both;
     position: relative;
 }
 
@@ -165,6 +165,11 @@ section {
     text-align: justify;
 }
 
+.featured-items {
+    clear: both;
+    
+}
+
 .featured-flex-content {
     display: flex;
     flex-wrap: wrap;
@@ -200,7 +205,8 @@ section {
     font-weight: bold;
     font-size: 100%;
     text-transform: capitalize;
-    text-shadow: -0.5px 1px rgb(92, 91, 91)
+    text-shadow: -0.5px 1px rgb(92, 91, 91);
+    padding-top: 2px;
     
 }
 
@@ -208,7 +214,7 @@ section {
     height: 100%;
     width: 100%;
     object-fit: cover;
-    object-position: center top;
+    object-position: center center;
     
 }
 
