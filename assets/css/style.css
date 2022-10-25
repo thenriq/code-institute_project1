@@ -326,3 +326,32 @@ footer {
     background-color: #000000;
     color: #E66558;
 }
+
+/* Media queries */
+
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1170px) {
+    .greeting-box-container {
+        display: block;
+        float: none;
+        width: 100%
+    }
+
+    .greeting-header {
+        margin: 0 30px 0 30px;
+        padding: 0 5%;
+        text-align: center;
+
+    }
+
+    .greeting-message {
+        margin: 0 30px 0 30px;
+        padding: 0 5%;
+        text-align: center;
+    }
+
+    .flex-greeting {
+        width: 100%;
+    }
+
+}
