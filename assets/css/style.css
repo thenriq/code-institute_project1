@@ -251,7 +251,7 @@ footer {
     background: url("../images/several_colorful_helium_balloon_on_wite_background.jpg");
     background-size: cover;
     background-position: center center;
-    height: 500px;
+    height: 600px;
     align-content: center;
     padding: 5% 0;
     
@@ -269,12 +269,13 @@ footer {
     /*margin: 150px 10% 0 0;*/
     color: rgb(22, 21, 21);
     /*background-color: rgba(112, 110, 108, 0.6);*/
-    background-color: white;
+    /*background-color: white;*/
+    background-color: rgba(255, 255, 255, 0.9);
     
-    max-width: 400px;
+    max-width: 290px;
     position: absolute;
     /*left: 10%;*/
-    padding: 30px;
+    padding: 4%;
     align-content: center;
 }
 
