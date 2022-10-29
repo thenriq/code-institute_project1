@@ -26,7 +26,7 @@ h3 {
 }
 
 
-#logo-text {
+.logo-text {
     float: left;
     font-size: 200%;
     text-transform: uppercase;
@@ -38,16 +38,15 @@ h3 {
 
 
 
-#menu {
+.menu {
     font-size: 120%;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     float: right;
-    
     
     
 }
 
-#menu, #logo-text {
+.menu, .logo-text {
     line-height: 75px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -55,18 +54,18 @@ h3 {
 
 
 
-#menu li {
+.menu li {
     float: left;
     list-style-type: none;
     margin-right: 30px;
 }
 
-#menu a {
+.menu a {
     text-decoration: none;
     color: inherit;
 }
 
-#menu a:hover {
+.menu a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
 
@@ -89,7 +88,7 @@ section {
       }
 
 
-#hero-outer {
+.hero-outer {
     height: auto;
     width: 100%;
     overflow: hidden;
@@ -97,9 +96,10 @@ section {
     position: relative;
 }
 
-#hero_image_box {
+.hero_image_box {
     display: flex;
     justify-content: space-around;
+    
 }
 
 /*#hero-image {
@@ -108,7 +108,7 @@ section {
     height: auto;
 }*/
 
-#hero-image {
+.hero-image {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -121,7 +121,7 @@ section {
 
     height: 1000px;
     width: 100%;
-    background: url('../images/hero_image_3.jpg') no-repeat center center;
+    background: url('../images/hero_image_3.webp') no-repeat center center;
     background-size: cover;
     
     padding-top: 10px;
@@ -131,7 +131,7 @@ section {
 /*
     /*height: 600px;*//*
     width: 100%;
-    background: url('../images/hero_image_2.jpg') no-repeat center center;
+    background: url('../images/hero_image_2.webp') no-repeat center center;
     background-size: 100% auto;
     padding-top: 46%;
     opacity: 0.7;
@@ -258,7 +258,7 @@ footer {
 
 .contact-section {
     clear: both;
-    background: url("../images/several_colorful_helium_balloon_on_wite_background.jpg");
+    background: url("../images/several_colorful_helium_balloon_on_wite_background.webp");
     background-size: cover;
     background-position: center center;
     height: 600px;
@@ -343,7 +343,7 @@ footer {
 /* For larger to medium screens size from 1170px wide and down */
 @media screen and (max-width: 1170px) {
 
-    #menu {
+    .menu {
         margin-bottom: 20px;
         margin-left: 30px;
         clear: left;
