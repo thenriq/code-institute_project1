@@ -15,19 +15,19 @@
 
 <body>
     <header>
-        <a href="index.html">
+        <a href="index.html" aria-label="See index page with featured items">
             <!--<h1 id="logo">Awesome Balloons</h1> -->
         </a>
         <nav>
             <ul class="menu">
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="index.html" aria-label="See index page with featured items">Home</a>
                 </li>
                 <li>
-                    <a href="gallery.html">Gallery</a>
+                    <a href="gallery.html" aria-label="See all items we offer">Gallery</a>
                 </li>
                 <li>
-                    <a href="contact.html" class="active">Contact</a>
+                    <a href="contact.html" aria-label="Get in touch with us" class="active">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -40,18 +40,18 @@
             <form method="POST" action="https://formdump.codeinstitute.net/" class="contact-form">
                 <h2>The magic starts here </i></h2>
                 <label for="fname">First Name</label>
-                <input class="text-input" class="fname" name="first_name" type="text" required>
+                <input type="text" id="fname" class="text-input" name="first_name"  required>
                 
                 <label for="lname">Last Name</label>
-                <input class="text-input"  class="lname" name="last_name" type="text" required>
+                <input type="text" id="lname" class="text-input" name="last_name"  required>
                 
                 <label for="email">Email Address</label>
-                <input class="text-input" type="email" class="email" name="email_address" required>
+                <input type="email" id="email" class="text-input" name="email_address" required>
 
                 <label for="message">Your message</label>
                 <br>
 
-                <textarea class="message-input" onfocus="this.value=''" class="message" name="message" rows="4" cols="50">Enter text here...</textarea>
+                <textarea id="message" class="message-input" onfocus="this.value=''" name="message" rows="4" cols="50">Enter text here...</textarea>
                 
                 
                 
