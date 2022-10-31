@@ -43,8 +43,8 @@ h1, h2 {
 
 .logo-image {
     
-    height: 90px;
-    width: 100%;
+    height: 82px;
+    width: 326px;
     padding-top: 20px;
     padding-bottom: 20px;
     
@@ -61,10 +61,10 @@ h1, h2 {
     
 }
 
-.menu, .logo-text {
+.menu/*, .logo-text */{
     line-height: 75px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 
@@ -73,19 +73,25 @@ h1, h2 {
     float: left;
     list-style-type: none;
     margin-right: 30px;
+    
+
 }
 
 .menu a {
     text-decoration: none;
-    color: inherit;
+    font-weight: 600;
+    /*color: inherit;*/
+    color: #2E294E;
 }
 
 .menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    /*border-bottom: 1px solid #3a3a3a;*/
+    color: #D90368;
 }
 
 .active{
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #2E294E;
+    
 }
 
 /* hero_image */
