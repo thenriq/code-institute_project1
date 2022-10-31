@@ -467,4 +467,35 @@ footer {
         height: 100%;
         margin: 0;
     }
+
+    .hero_image_box {
+        height: 400px;
+        width: 100%;
+        /*object-fit: cover;*/
+        /*max-width: 800px;*/
+        background: url('../images/mobile/new_hero_image.webp') no-repeat center right;
+    }
+
+       
+    #text-over-hero-image {
+        font-family: Work Sans;
+        width: 219px;
+        height: 84px;
+        top: 228px;
+        left: 81px;
+        position: absolute;
+    }
+    
+    #text-over-hero-image h2 {
+        font-size: 20px;
+        
+    }
+    
+    #text-over-hero-image p {
+        font-size: 14px;
+    }
+
+    .hero-contact-button {
+        line-height: 59px;
+    }
 }
