@@ -35,15 +35,19 @@ h1, h2 {
 
 .logo-box {
     float: left;
-    
     margin-left: 30px;
+    overflow: hidden;
+    position: relative;
+
 }
 
 .logo-image {
-    /* height: 0%; */
-    width: 37%;
+    
+    height: 90px;
+    width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
+    
 }
 
 
