@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Baloo+2&family=Mali:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;600&display=swap');
 
 *{
     margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Baloo 2', cursive, sans-serif;
+    font-family: 'Work Sans', sans-serif;;
     font-weight: 300;
     color: #3a3a3a;
     
@@ -16,14 +16,12 @@ body {
 /* headings and logo */
 
 h1, h2 {
-    font-family: 'Baloo 2', cursive, sans-serif;
-    letter-spacing: 4px;
-    color: rgb(230, 101, 50)
+    font-family: 'Work Sans', sans-serif;
+    /*letter-spacing: 4px;*/
+    
 }
 
-h3 {
-    color: rgb(230, 101, 50);
-}
+
 
 
 .logo-text {
@@ -97,8 +95,12 @@ section {
 }
 
 .hero_image_box {
-    display: flex;
-    justify-content: space-around;
+    /*display: flex;
+    justify-content: space-around;*/
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
     
 }
 
@@ -108,14 +110,34 @@ section {
     height: auto;
 }*/
 
-.hero-image {
-    height: 100%;
+.hero_image_box {
+    height: 600px;
     width: 100%;
-    object-fit: cover;
+    /*object-fit: cover;*/
     /*max-width: 800px;*/
-    object-position: center center;
+    background: url('../images/new_hero_image.webp') no-repeat center right;
 }
 
+#text-over-hero-image {
+    font-family: Work Sans;
+    width: 520px;
+    height: 113px;
+    top: 140px;
+    left: 120px;
+    position: absolute;
+}
+
+#text-over-hero-image h2 {
+    font-weight: bold;
+    font-size: 45px;
+    color: #fffcf8;
+}
+
+#text-over-hero-image p {
+    font-style: normal;
+    font-size: 28px;
+    color: #fffcf8;
+}
     /*
 
 
