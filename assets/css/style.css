@@ -242,11 +242,13 @@ section {
     padding: 4%;
     
     vertical-align: top;
-    box-shadow: 0 0 16px rgb(0 0 0 / 15%);
+    /*box-shadow: 0 0 16px rgb(0 0 0 / 15%);*/
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
-    background-color: rgb(238, 228, 210);
+    /*background-color: rgb(238, 228, 210);*/
+    border: solid rgba(128, 128, 128, 0.342);
+    border-width: thin;
 }
 
 .featured-items div div p {
@@ -254,7 +256,7 @@ section {
     font-weight: bold;
     font-size: 100%;
     text-transform: capitalize;
-    text-shadow: -0.5px 1px rgb(92, 91, 91);
+    /*text-shadow: -0.5px 1px rgb(92, 91, 91);*/
     padding-top: 2px;
     
 }
