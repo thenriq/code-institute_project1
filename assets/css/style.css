@@ -278,6 +278,16 @@ footer {
     
 }
 
+.hero-contact-button {
+    width: 267px;
+    line-height: 265px;
+    border-radius: 18px;
+    padding: 11px 40px 11px 40px;
+    background-color: #d90368;
+    color: #fffcf8;
+    text-decoration: none;
+}
+
 .contact-section {
     clear: both;
     background: url("../images/several_colorful_helium_balloon_on_wite_background.webp");
