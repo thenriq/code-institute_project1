@@ -315,9 +315,9 @@ footer {
 
 .contact-section {
     clear: both;
-    background: url("../images/several_colorful_helium_balloon_on_wite_background.webp");
+    background: url(../images/elegant-balloons-frame-design-vector.webp);
     background-size: cover;
-    background-position: center center;
+    background-position: center right;
     height: 600px;
     align-content: center;
     padding: 5% 0;
@@ -326,24 +326,20 @@ footer {
 
 .form-div{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     height:  100%;
     
 }
 
 .contact-form {
-    /*margin: 150px 10% 0 0;*/
     color: rgb(22, 21, 21);
-    /*background-color: rgba(112, 110, 108, 0.6);*/
-    /*background-color: white;*/
     background-color: rgba(255, 255, 255, 0.9);
-    
-    max-width: 290px;
+    width: 50%;
     position: absolute;
-    /*left: 10%;*/
     padding: 4%;
     align-content: center;
+    margin-left:30px;
 }
 
 .contact-form h2 {
