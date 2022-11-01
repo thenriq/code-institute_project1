@@ -4,5 +4,6 @@ Awesome Bubbles is an awesome webpage that offers customers the best balloons pr
 
 <br>
 
-![Awesome Balloons](https://thenriq.github.io/code-institute_project1/assets/screenshot_responsive.webp)
+![Awesome Balloons](https://thenriq.github.io/code-institute_project1/assets/images/screenshot_responsive.webp)
+
 ### Balloons!
