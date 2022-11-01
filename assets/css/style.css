@@ -222,7 +222,12 @@ section {
 
 .featured-items {
     clear: both;
-    
+}
+
+.services-category {
+    margin-left: 6%;
+    padding: 3% 0;
+    font-size: 40px;
 }
 
 .featured-flex-content {
