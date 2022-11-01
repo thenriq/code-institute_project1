@@ -8,6 +8,8 @@ Awesome Bubbles is an awesome webpage that offers customers the best balloons pr
 
 ## Features
 
+### Index page (Home)
+
 - Navigation
     - The navigation bar is at the top of the page and it contains to the left side the page logo, which links to the home page.
     - The right side contains the other navigation links: **Home**, **Gallery** and **Contact**. These items are linked to the other pages available in Avesome Bubbles website.
@@ -37,3 +39,18 @@ Awesome Bubbles is an awesome webpage that offers customers the best balloons pr
      <br>
 
     ![featured-items](https://thenriq.github.io/code-institute_project1/assets/images/featured_items.webp)
+
+    <br>
+
+    ### Gallery page
+    - This page shows application of our products in different ocasions: birthdays, weddings, valentine's day, and more.
+
+    ### Contact page
+    - This is the section where our customer will be able to contact us in order to purchase a product or service.
+    - The form will collect the customer's first name, last name, email, phone number and the message from our customers.
+    - This same form can be reached from the Home page, by clicking on the button over the hero image.
+    - The backgound image enhances the elegance and quality of our products
+
+     <br>
+
+    ![featured-items](https://thenriq.github.io/code-institute_project1/assets/images/contact-form.webp)
