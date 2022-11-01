@@ -222,6 +222,7 @@ section {
 
 .featured-items {
     clear: both;
+    background-color: #07070708;
 }
 
 .services-category {
@@ -243,6 +244,7 @@ section {
     
 }
 
+/*
 .featured-items div div {
     width: 17vw;
     height: 17vw;
@@ -253,11 +255,32 @@ section {
     padding: 4%;
     
     vertical-align: top;
-    /*box-shadow: 0 0 16px rgb(0 0 0 / 15%);*/
+    
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
-    /*background-color: rgb(238, 228, 210);*/
+    
+    border: solid rgba(128, 128, 128, 0.342);
+    border-width: thin;
+}
+*/
+
+
+.individual-item {
+    width: 17vw;
+    height: 17vw;
+    display: inline-block;
+    position: relative;
+    
+    margin-bottom: 100px;
+    padding: 4%;
+    
+    vertical-align: top;
+    
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    
     border: solid rgba(128, 128, 128, 0.342);
     border-width: thin;
 }
@@ -267,7 +290,7 @@ section {
     font-weight: bold;
     font-size: 100%;
     text-transform: capitalize;
-    /*text-shadow: -0.5px 1px rgb(92, 91, 91);*/
+    
     padding-top: 2px;
     
 }
@@ -387,11 +410,11 @@ background-color: #fafafa;
 }
 
 .text-input:hover {
-    border-color: blue;
+    border-color: #DA0369;
 }
 
 .message-input:hover {
-    border-color: blue;
+    border-color: #DA0369;
 }
 
 .contact-button {
