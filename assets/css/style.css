@@ -377,6 +377,15 @@ footer {
 
 .contact-button {
     margin-top: 20px;
+    border-radius: 18px;
+    padding: 11px 40px 11px 40px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #d90368;
+    color: #fafafa;
+    display: block;
+    /*
+    margin-top: 20px;
     border-radius: 2px;
     padding: 15px 32px 15px 32px;
     text-align: center;
@@ -384,6 +393,7 @@ footer {
     background-color: #f16c6b;
     color: #fafafa;
     display: block;
+    */
 }
 
 .contact-button:hover {
@@ -494,4 +504,15 @@ footer {
     .hero-contact-button {
         line-height: 59px;
     }
+
+    .form-div{
+        justify-content: center;
+    }
+
+    .contact-form {
+        width: 80%;
+        margin-left: 0;
+    }
+
+
 }
