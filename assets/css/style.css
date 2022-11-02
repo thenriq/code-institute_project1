@@ -93,15 +93,10 @@ section {
     width: 100%;
     overflow: hidden;
     position: relative;
-}
-
-.hero_image_box {
-    height: 600px;
-    width: 100%;
     background: url('../images/new_hero_image.webp') no-repeat center right;
 }
 
-#text-over-hero-image {
+.text-over-hero-image {
     font-family: Work Sans;
     width: 520px;
     height: 113px;
@@ -110,13 +105,13 @@ section {
     position: absolute;
 }
 
-#text-over-hero-image h2 {
+.text-over-hero-image h2 {
     font-weight: bold;
     font-size: 45px;
     color: #fffcf8;
 }
 
-#text-over-hero-image p {
+.text-over-hero-image p {
     font-style: normal;
     font-size: 28px;
     color: #fffcf8;
