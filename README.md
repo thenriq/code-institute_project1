@@ -55,6 +55,8 @@ Awesome Bubbles is an awesome webpage that offers customers the best balloons pr
 
     ![featured-items](https://thenriq.github.io/code-institute_project1/assets/images/contact-form.webp)
 
+    <br>
+
     ## Testing
 
     - Tests were performed on different browsers: Chrome, Firefox, Opera and Edge.
@@ -62,24 +64,30 @@ Awesome Bubbles is an awesome webpage that offers customers the best balloons pr
     - All the 3 pages are all readable and easy to understand.
     - The fields in the contact form will required entries in every field, only email will be accepted in the email field and the button submit works well
 
+    <br>
+
     ## Bugs
     - After deployed the project to GitHub Pages, I found that the contac form was covering the footer when using the website on a mobile device. 
     - It was fixed by reducing the font size on the form header, which was breaking into 3 lines, pushing all the fields down.
 
+    <br>
+
     ## Validator Testing
     - HTML
         - No errors were returned when passing through the official W3C validator.
+        
+        <br>
+
     - CSS
         - No errors were found when passing through the official (Jigsaw) validator.
+
+        <br>
+
     - Accessibility
         - I confirm that the colors and fonts are easy to read and accessible by running it through lighthouse in devtools.
             - Index page (Home) on Desktop:
 
-            
-
             ![lighthouse_index_desktop](https://thenriq.github.io/code-institute_project1/assets/images/lighthouse_index_desktop.webp)
-
-            <br>
 
             - Index page (Home) on Mobile:
 
@@ -104,3 +112,34 @@ Awesome Bubbles is an awesome webpage that offers customers the best balloons pr
             - Contact page on Mobile:
 
             ![lighthouse_contact_mobile](https://thenriq.github.io/code-institute_project1/assets/images/lighthouse_contact_mobile.webp)
+
+            <br>
+    ## Deployment
+
+    - The site was deployed to GitHub pages. The steps to deploy are as follows:
+        - In the GitHub repository, navigate to the Settings tab;
+        - Under "Code and automation" (left panel), click on "Pages";
+        - Under "Builds and deployment", from the dropdown menu, select the Master Branch;
+        - Once the master branch has been selected, the page provided the link to the completed website.
+    
+    <br>
+
+    The live link can be found here - [Awesome Bubbles](https://thenriq.github.io/code-institute_project1/)
+
+    <br>
+
+    # Credits
+
+    ### Content
+
+    - The code to make the social media links was taken from the CI [Love Running](https://thenriq.github.io/love-running/) project.
+    - The flexbox code was taken from the youtube page [Web Dev Simplified](https://www.youtube.com/watch?v=fYq5PXgSsbE)
+
+    <br>
+
+    ### Media
+    - The images in this website were taken from the following sources:
+        [Freepik](https://www.freepik.com)
+        [Freeimages](https://www.freeimages.com)
+        [Unsplash](https://unsplash.com/)
+
