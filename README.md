@@ -65,3 +65,42 @@ Awesome Bubbles is an awesome webpage that offers customers the best balloons pr
     ## Bugs
     - After deployed the project to GitHub Pages, I found that the contac form was covering the footer when using the website on a mobile device. 
     - It was fixed by reducing the font size on the form header, which was breaking into 3 lines, pushing all the fields down.
+
+    ## Validator Testing
+    - HTML
+        - No errors were returned when passing through the official W3C validator.
+    - CSS
+        - No errors were found when passing through the official (Jigsaw) validator.
+    - Accessibility
+        - I confirm that the colors and fonts are easy to read and accessible by running it through lighthouse in devtools.
+            - Index page (Home) on Desktop:
+
+            
+
+            ![lighthouse_index_desktop](https://thenriq.github.io/code-institute_project1/assets/images/lighthouse_index_desktop.webp)
+
+            <br>
+
+            - Index page (Home) on Mobile:
+
+            ![lighthouse_index_mobile](https://thenriq.github.io/code-institute_project1/assets/images/lighthouse_index_mobile.webp)
+
+            <br>
+
+            - Gallery page on Desktop:
+
+            ![lighthouse_gallery_desktop](https://thenriq.github.io/code-institute_project1/assets/images/lighthouse_gallery_desktop.webp)
+
+            - Gallery page on Mobile:
+
+            ![lighthouse_gallery_desktop](https://thenriq.github.io/code-institute_project1/assets/images/lighthouse_gallery_mobile.webp)
+
+            <br>
+
+            - Contact page on Desktop:
+
+            ![lighthouse_contact_desktop](https://thenriq.github.io/code-institute_project1/assets/images/lighthouse_contact_desktop.webp)
+
+            - Contact page on Mobile:
+
+            ![lighthouse_contact_mobile](https://thenriq.github.io/code-institute_project1/assets/images/lighthouse_contact_mobile.webp)
