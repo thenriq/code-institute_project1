@@ -54,3 +54,14 @@ Awesome Bubbles is an awesome webpage that offers customers the best balloons pr
      <br>
 
     ![featured-items](https://thenriq.github.io/code-institute_project1/assets/images/contact-form.webp)
+
+    ## Testing
+
+    - Tests were performed on different browsers: Chrome, Firefox, Opera and Edge.
+    - During tests, it was confirmed that the website is fully responsive. Extra care was taken in regards to performance for mobile devices, by setting smaller images for these devices.
+    - All the 3 pages are all readable and easy to understand.
+    - The fields in the contact form will required entries in every field, only email will be accepted in the email field and the button submit works well
+
+    ## Bugs
+    - After deployed the project to GitHub Pages, I found that the contac form was covering the footer when using the website on a mobile device. 
+    - It was fixed by reducing the font size on the form header, which was breaking into 3 lines, pushing all the fields down.
