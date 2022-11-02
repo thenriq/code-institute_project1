@@ -356,6 +356,27 @@ footer {
         height: 25vw;
         padding: 7%;
     }
+
+    .text-over-hero-image {
+        font-family: Work Sans;
+        width: 219px;
+        height: 84px;
+        top: 430px;
+        left: 350px;
+        position: absolute;
+    }
+
+    .text-over-hero-image h2 {
+        font-size: 20px;
+    }
+
+    .text-over-hero-image p {
+        font-size: 14px;
+    }
+
+    .hero-contact-button {
+        line-height: 59px;
+    }
 }
 
 /* For small screen sizes 800px and down */
